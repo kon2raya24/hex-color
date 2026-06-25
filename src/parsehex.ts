@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * parseHex
+ * @param hex
+ */
 export function parseHex(hex: string): { r: number; g: number; b: number } {
   const cleaned = hex.replace(/^#/, "");
   const full = cleaned.length === 3

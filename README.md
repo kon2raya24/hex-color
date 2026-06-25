@@ -21,3 +21,11 @@ npm install hex-color
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'hex-color';
+// See API section for available functions
+```
